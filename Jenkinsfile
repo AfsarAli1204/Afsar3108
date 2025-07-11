@@ -1,17 +1,17 @@
 pipeline{
   agent any
    stages{
-      stege("build"){
+      stage("build"){
           steps{
             echo 'building the application....'
           }
       }
-      stege("test"){
+      stage("test"){
           steps{
             echo 'testing the application....'
           }
       }
-      stege("deploy"){
+      stage("deploy"){
           steps{
             echo 'deploying the application....'
           }
